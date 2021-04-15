@@ -49,4 +49,4 @@ jobs:
           sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
           
           echo "开始同步【A】"
-          rclone copy colab:印尼邮件大学/4K od:4K -v 
+          rclone copy colab:印尼邮件大学/4K od:4K -P
