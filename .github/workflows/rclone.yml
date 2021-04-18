@@ -3,7 +3,7 @@ name: Rclone
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0/6 * * *'
+    - cron: '5 0/12 * * *'
 
 jobs:
   build:
@@ -49,4 +49,4 @@ jobs:
           sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
           
           echo "开始同步【A】"
-          rclone copy colab:印尼邮件大学/4K od:4K -P
+          rclone copy freema2: freeun2: -P --transfers 12
