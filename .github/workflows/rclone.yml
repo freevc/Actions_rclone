@@ -49,4 +49,4 @@ jobs:
           sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
           
           echo "开始同步【A】"
-          rclone copy freema2: freeun2: -P --transfers 12
+          rclone copy freema2: freeun2: -P --transfers 4
